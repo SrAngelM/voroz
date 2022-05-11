@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/styles/account-info.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container-fluid p-3">
+        <div class="navbar navbar-expand-sm">
+          <a href="#" class="navbar-brand">
+            <img src="/icons/Spotify-vip.svg" alt="icon-spotify" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Content-a" aria-controls="Content-a" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-arrow-down-circle" style="color: white"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end text-center     list-unstyled" id="Content-a">
+            <li class="nav-item mt-4">
+              <a href="/html/inicio.html" class="nav-link">Mis Tareas</a>
+            </li>
+            <li class="nav-item mt-4">
+              <a href="/html/membresia.html" class="nav-link">
+                Adquirir membresía
+              </a>
+            </li>
+            <li class="nav-item mt-4">
+              <a href="/html/account-info.html" class="nav-link">
+                Mi cuenta
+              </a>
+            </li>
+            <li class="nav-item mt-4">
+              <a href="/index.html" class="nav-link">
+                Salir
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Info del usuario -->
+      <div class="container datos-cuenta user p-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-8">
+            <p>Nombre: <span>Oscar Echegaray</span></p>
+            <p>Email: <span>chupapinganumero1@gmail.com</span></p>
+            <p>Teléfono: <span>+51 9999999999</span></p>
+            <p>Código: <span>0SC4RL4M3P3N3MV3RD34LM0H4D4</span></p>
+            <p class="pt-5">
+              Para poder compartir el código con otro usuario,
+              <a href="#" class="fw-bold">haga click aquí</a>
+            </p>
+          </div>
+          <div class="col-12 col-sm-4 justify-content-center align-items-center d-flex">
+            <img src="/icons/oscar.PNG" alt="" class="img-fluid rounded-circle" width="50%" height="50%"/>
+          </div>
+        </div>
+      </div>
+      <!-- Otros cuadrados xd -->
+      <div class="container datos-cuenta mb-5">
+        <div class="row">
+          <!-- Periodo de afiliación -->
+          <div class="col-12 col-sm-4 mt-5 shadow-lg p-3 mb-5 ms-sm-auto">
+            <div class="row">
+              <div class="col-12 text-center mb-1">
+                <h5>Periodo de afiliación</h5>
+                <!-- En caso tenga vip -->
+                <p class="mt-4">
+                  Usted es <span>Vip 5</span> y le quedan <span>365</span> días
+                </p>
+              </div>
+              <div class="col-12 d-flex justify-content-center align-items-center">
+                <img src="/icons/calendario.png" alt="afiliacion" />
+              </div>
+            </div>
+          </div>
+          <!-- Saldo de billetera -->
+          <div class="col-12 col-sm-4 mt-5 shadow-lg p-3 mb-5 offset-sm-2 me-sm-auto">
+            <div class="row">
+              <div class="col-12 text-center mb-4">
+                <h5>Saldo de Billetera</h5>
+                <span class="fs-2 fw-bold">$500.00</span>
+                <a href="#" class="d-block fw-bold">Ver movimientos</a>
+                <a href="/html/agregar-saldo.html" class=" fw-bold">Agregar saldo</a>
+              </div>
+              <div class="col-12 d-flex justify-content-center align-items-center">
+                <img src="/icons/billetera.png" alt="billetera" />
+              </div>
+            </div>
+          </div>
+          <!-- Tareas disponibles -->
+          <div class="col-12 col-sm-4 mt-3 shadow-lg p-3 mb-5 ms-sm-auto">
+            <div class="row">
+              <div class="col-12 text-center mb-2">
+                <h5>Tareas disponibles</h5>
+                <p>Quedan <span>7</span> tareas disponibles</p>
+              </div>
+              <div class="col-12 d-flex justify-content-center align-items-center">
+                <img src="/icons/tarea.png" alt="tareas" />
+              </div>
+            </div>
+          </div>
+          <!-- Ver recomendaciones -->
+          <div class="col-12 col-sm-4 mt-3 shadow-lg p-3 mb-5 offset-sm-2 me-sm-auto">
+            <div class="row">
+              <div class="col-12 text-center mb-4">
+                <h5>Afiliados por código</h5>
+                <a href="#" class="fw-bold">-> Ver Recomendaciones</a>
+              </div>
+              <div class="col-12 d-flex justify-content-center align-items-center">
+                <img src="/icons/marketing-de-afiliados.png" alt="afiliados" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Fotter -->
+    <!-- Footer -->
+    <footer class="container-fluid mt-3 text-center">
+      <div class="row justify-content-center align-items-center d-flex">
+        <div class="col-12 col-sm-4 p-4 justify-content-end">
+          <div class="container-logo-spotify w-75 m-auto">
+            <img src="/icons/Spotify-logo.png" alt="Spotify-logo" />
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="row ms-1">
+            <div class="col-3 col-sm-12 m-auto icon-telegram">
+              <a href=""><img src="/icons/telegram.png" alt="" class="w-50 icon-telegram" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 p-4">
+          <h5 class="mt-3 mb-3 fw-bold ">Compañia</h5>
+          <a href="https://www.spotify.com/pe/about-us/contact/">Acerca de Nosotros</a>
+          <a href="https://support.spotify.com/" class="text-dark text-decoration-none d-block">
+            Soporte técnico
+          </a>
+        </div>
+        <div class="col-12 text-center" style="background-color: white">
+          <p class="mt-3 fw-bold">
+            Spotify Vip Group © - Todo los derechos reservados - Ontario, CA.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .navbar-brand {
@@ -19,24 +19,38 @@ header {
 
 .nav-link {
   text-align: center;
-  font-size: 1.2rem;
   color: white;
+  font-size: 1.2rem;
 }
 
 main {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
-main .homeworks {
-  width: 90%;
+main .container{
+  max-width: 100%;
+}
+
+main .container .membresias {
+  max-width: 100vw;
+}
+
+span{
+  font-weight: bold;
+}
+.card {
+  box-shadow: 0 0.5rem 1.5rem #d4b920;
+  height: 32rem;
+}
+a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.container-card {
+  width: 23rem;
   height: 100%;
-  background-color: #ffffff;
-  border-radius: 20px;
-  overflow-y: scroll;
-}
-
-main .homeworks .card {
-  border-radius: 20px;
 }
 
 footer {
@@ -48,22 +62,16 @@ footer img {
   width: 10rem;
 }
 
-a {
-  color: black;
-  display: block;
-  text-decoration: none;
-}
 
 @media only screen and (min-width: 576px) {
   header {
-    font-size: 1.2rem;
-    margin-bottom: 50px;
+    font-size: 1rem;
   }
   header .collapse .nav-item {
     margin-top: 0 !important;
   }
   .navbar-brand {
-    margin-left: 50px;
+    margin-left: 20px;
     width: 12rem;
   }
   .nav-link {
@@ -71,10 +79,14 @@ a {
   }
 }
 
+@media only screen and (min-width: 990px) {
+  .container-card {
+    margin-left: 20px;
+  }
+}
+
 @media only screen and (min-width: 760px){
   .icon-telegram{
     max-width: 110px;
   }
-
 }
-

@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #141414;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  width: 50%;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.nav-link {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+h5,
+label {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a,
+h5,
+h2,
+label {
+  color: #457e59;
+}
+
+footer a{
+  color:black;
+  text-decoration: none;
+}
+footer h5{
+  color: black;
+}
+
+h2,
+span {
+  font-weight: bold;
+}
+
+main {
+  min-height: 78vh;
+}
+
+.transacciones .codigos {
+  background-color: #ffffffe1;
+  max-width: 90%;
+  height: 100%;
+  word-wrap: break-word;
+  box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.616);
+}
+.depositos {
+  max-width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.card {
+  width: 60%;
+  margin: auto;
+  box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.616);
+}
+
+.img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: white;
+  margin-top: auto;
+}
+
+footer img {
+  width: 10rem;
+}
+
+@media only screen and (min-width: 576px) {
+  header {
+    font-size: 1rem;
+  }
+  header .collapse .nav-item {
+    margin-top: 0 !important;
+  }
+  .navbar-brand {
+    margin-left: 20px;
+    width: 12rem;
+  }
+  .nav-link {
+    margin-right: 50px;
+  }
+  .transacciones .codigos {
+    width: 60%;
+  }
+
+  .transacciones .codigos .row .col-12 input {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 760px){
+  .icon-telegram{
+    max-width: 110px;
+  }
+}

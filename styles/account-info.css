@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #141414;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.navbar-brand {
+  width: 50%;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.nav-link {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.datos-cuenta {
+  background-color: #ffffffe1;
+  max-width: 90%;
+  height: 100%;
+  word-wrap: break-word;
+  box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.616);
+}
+
+a {
+  color: rgb(59, 28, 12);
+  text-decoration: none;
+}
+
+p span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main {
+  min-height: 78vh;
+}
+
+main .container {
+  border-radius: 20px;
+}
+
+main h5{
+  color: darkgreen;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: white;
+  margin-top: auto;
+}
+
+footer img {
+  width: 10rem;
+}
+
+footer a{
+  color: black;
+}
+
+footer h5,
+footer h6 {
+  color: rgb(52, 66, 54);
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 576px) {
+  header {
+    font-size: 1rem;
+  }
+  header .collapse .nav-item {
+    margin-top: 0 !important;
+  }
+  .navbar-brand {
+    margin-left: 20px;
+    width: 12rem;
+  }
+  .nav-link {
+    margin-right: 50px;
+  }
+  .user {
+    width: 86%;
+  }
+}
+@media only screen and (min-width: 760px){
+  .icon-telegram{
+    max-width: 110px;
+  }
+
+}
+
+
+@media only screen and (min-width: 920px) {
+  .user {
+    width: 60%;
+  }
+}

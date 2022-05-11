@@ -11,7 +11,22 @@ body {
   background-size: cover;
 }
 
+header {
+  margin-bottom: 20px;
+}
+
+
+.navbar-brand {
+  width: 50%;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
 .nav-link {
+  text-align: center;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -44,12 +59,23 @@ main {
   border: none;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) {
+  header {
+    font-size: 1rem;
+  }
+  header .collapse .nav-item {
+    margin-top: 0 !important;
+  }
   .navbar-brand {
-    width: 70%;
+    margin-left: 20px;
+    width: 12rem;
+  }
+  .nav-link {
+    margin-right: 50px;
   }
 
-  .formulario {
-    width: 15rem;
+  .card {
+    width: 80%;
+    margin: auto;
   }
 }
